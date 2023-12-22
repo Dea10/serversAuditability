@@ -1,0 +1,3 @@
+
+* * * * * cd /Users/danielespinosa/Documents/lab/docker/node-nodes && /usr/local/bin/docker compose up >> /Users/danielespinosa/Documents/lab/docker/node-nodes/cron_output.log 2>&1
+* * * * * echo "success" >> /Users/danielespinosa/Documents/lab/docker/node-nodes/cron.txt

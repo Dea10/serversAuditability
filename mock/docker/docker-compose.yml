@@ -1,0 +1,13 @@
+services:
+  telemetry1:
+    build:
+      context: .
+      args:
+        SERVICE_NAME: telemetry1
+    network_mode: "host"
+  telemetry2:
+    build:
+      context: .
+      args:
+        SERVICE_NAME: telemetry2
+    network_mode: "host"
